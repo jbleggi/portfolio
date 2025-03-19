@@ -14,7 +14,9 @@ instagram_username: instagram
 twitter_username: twitter
 facebook_username: facebook
 
-theme: jekyll-professional-resume
+theme: jekyll-theme-minimal
+
+include: [sections]
 
 exclude:
   - _posts/
