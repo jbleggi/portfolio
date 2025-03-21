@@ -83,8 +83,10 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
-		color: #666;
-		line-height: 1.5em;
+		color: black;
+		line-height: 2em;
+		font-weight: bolder;
+		font-size: 2em;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -330,7 +332,7 @@
 		select,
 		textarea {
 			position: relative;
-			-webkit-appearance: none;
+			// -webkit-appearance: none;
 			display: block;
 			border: 0;
 			outline: 0;
@@ -662,7 +664,7 @@
 
 			&.dark {
 				color: #ddd;
-				color: rgba(255, 255, 255, 0.75);
+				color: black;
 
 				h2, h3, h4, h5, h6 {
 					color: inherit;
@@ -671,6 +673,7 @@
 				strong {
 					color: #fff;
 					border-color: inherit;
+					font-weight: bolder;
 				}
 
 				a {
