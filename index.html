@@ -4,10 +4,93 @@
     <meta charset="UTF-8">
     <link rel="icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vite App</title>
+    <title>Portfolio | Jillian Bleggi</title>
+    <style>
+      div {
+        width: 80%;
+        padding: 20px;
+        border: dashed black 1px;
+        text-align: center;     
+      }
+      div #nav_bar {
+        text-align: right;
+      }
+      /* div #header {
+      }
+      div #photo {
+      }
+      div #about {
+      } 
+      div #footer {
+      }
+      */
+      img {
+        width: 25%;
+        height: auto;
+      }
+      img-caption {
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <div id="app">
+      <div id="nav_bar">
+        <h3>
+          <ol>
+            <ul><router-link to="/projects">Projects</router-link></ul>
+            <ul><router-link to="/resume">Resume</router-link></ul>
+            <ul><router-link to="/on-the-job">Work Photo Gallery</router-link></ul>
+          </ol>
+        </h3>
+      </div>
+      <div id="header">
+        <h1>{{ welcome }}</h1>
+      </div>
+
+      <div id="photo">
+        <img alt="Photo of Jillian Bleggi" src="img/profile.JPG">
+      </div>
+
+      <div id="about">
+        <h3>
+          After 15 years working in education and serving my community, I am changing fields with the intention of helping other service providers and organizations create effective, user-friendly software and workflows.  
+          <br>
+          <br>
+          I may be new to software development, but I am not new to the professional environment! I have spent the first part of my career seeking progressively challenging roles while I honed leadership and advocacy skills.  
+          <br>
+          <br>
+          I look forward to a fresh start where I can continue to refine my new skill set while contributing to my community in a productive, collaborative, and solution-oriented work environment. 
+          <br>
+          <br>
+        </h3>
+      </div>
+
+      <div id="footer">
+        <p>
+          Let's get in touch: 
+          <br>
+          <a href="mailto: jillian.bleggi@gmail.com">Email</a>
+          <br>
+          <a href="https://github.com/jbleggi">GitHub</a>
+          <br>
+          <a href="https://linkedin.com/in/jillianbleggi/">LinkedIn</a>
+        </p>
+      </div>
+
+    </div>
+    
+    <script type="module">
+      import { createApp, ref } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+    
+      createApp({
+        setup() {
+          const welcome = ref("Hi there! 👋")
+          return {
+            welcome
+          }
+        }
+      }).mount('#app')
+    </script>
   </body>
 </html>
