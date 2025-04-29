@@ -1,85 +1,49 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import { RouterView } from 'vue-router'
+import NavigationBar from './components/NavigationBar.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+  <div id="app">
+    <header>
+      <img
+        alt="Jillian Bleggi profile"
+        src="src/assets/profile.JPG"
+        class="profile-photo"
+      />
+      <h1>Hi there! 👋</h1>
+      <NavigationBar />
+    </header>
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+    <main>
+      <router-view />
+    </main>
 
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
-
-  <RouterView />
+    <footer>
+      <p>
+        Let's get in touch:
+        <br />
+        <a href="mailto:jillian.bleggi@gmail.com">Email</a><br />
+        <a href="https://github.com/jbleggi">GitHub</a><br />
+        <a href="https://linkedin.com/in/jillianbleggi/">LinkedIn</a>
+      </p>
+    </footer>
+  </div>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-  max-height: 100vh;
-}
-
-.logo {
+.profile-photo {
+  width: 25%;
+  height: auto;
   display: block;
-  margin: 0 auto 2rem;
+  margin: 2rem auto;
+  border-radius: 50%;
 }
 
-nav {
-  width: 100%;
-  font-size: 12px;
+footer {
   text-align: center;
-  margin-top: 2rem;
-}
-
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
-
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-  border: 0;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
-  }
+  margin-top: 3rem;
+  padding: 2rem;
+  border-top: 1px dashed black;
 }
 </style>
