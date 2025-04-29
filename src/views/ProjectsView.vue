@@ -29,7 +29,7 @@
           {
             title: 'Success Cafe-- Work in Progress',
             description: 'An accessible point-of-sale application created for a vocational training program for young adults with developmental delays.',
-            image: '/images/projects/success-cafe.jpg',
+            image: '/images/projects/work-in-progress.png',
             type: 'Individual',
           },
           {
@@ -47,7 +47,7 @@
           {
             title: 'RepRadar',
             description: 'A group project that visualizes current executive orders and allows users to search for local representatives using zip code.',
-            image: '/images/projects/repradar.jpg',
+            image: '/images/projects/rep_radar.png',
             type: 'Group',
           },
           {
