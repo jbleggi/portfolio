@@ -1,3 +1,4 @@
+<!-- Resume.vue: Either a downloadable PDF or structured resume content -->
 <template>
   <div>
     <h1>Resume</h1>

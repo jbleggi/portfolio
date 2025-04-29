@@ -1,3 +1,4 @@
+<!-- Navbar.vue: Your top nav (links to About, Projects, Resume, On The Job) -->
 <template>
   <nav class="navbar">
     <ul class="nav-list">
