@@ -27,14 +27,14 @@
       return {
         projects: [
           {
-            title: 'Success Cafe-- Work in Progress',
+            title: 'Success Cafe (Work in Progress)',
             description: 'An accessible point-of-sale application created for a vocational training program for young adults with developmental delays.',
             image: '/images/projects/work-in-progress.png',
             type: 'Individual',
           },
           {
             title: 'Geography Trivia',
-            description: 'A simple trivia game about world geography.',
+            description: 'A simple trivia React app about world geography using the TriviaDV.',
             image: '/images/projects/geography_trivia.png',
             type: 'Individual',
           },
