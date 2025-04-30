@@ -1,8 +1,8 @@
 <!-- OnTheJob.vue: Grid/gallery of job photos + embedded YouTube links using <StorytimeVideo> -->
 <template>
   <div class="work-gallery">
-    <h1>On the Job</h1>
-    <p>A peek into my community-focused work before tech.</p>
+    <h1>Work Project Gallery</h1>
+    <p>A snapshot of the community-focused work I did before tech.</p>
     <br>
     <h2>Photos</h2>
     <div class="gallery-grid">
