@@ -1,8 +1,9 @@
 <!-- Projects.vue: Showcase with <ProjectCard> components for each project -->
   <template>
     <div class="projects-view">
-      <h1>Projects</h1>
-      <p>Click a card below to be redirected to the GitHub repository or deployed site link (if applicable).</p>
+      <h1>Tech Projects</h1>
+      <p>Click a card below to be redirected to the GitHub repository or deployed site link.</p>
+      <p>To check out other repositories I've made, <a href="https://github.com/jbleggi" target="_blank">check out my GitHub page.</a></p>
       <div class="projects-grid">
         <ProjectCard
           v-for="project in projects"
