@@ -36,34 +36,35 @@
       StorytimeVideo,
     },
     data() {
+      const base = import.meta.env.BASE_URL;
       return {
         photos: [
           {
-            src: '/images/gallery/JC_ClassroomSetup.jpeg',
+            src: `${base}/images/gallery/JC_ClassroomSetup.jpeg`,
             alt: 'Early childhood classroom with activity stations',
             caption: 'Early childhood classroom setup at the Judy Center'
           },
-          { src: '/images/gallery/JC_CommArt.jpeg',
+          { src: `${base}/images/gallery/JC_CommArt.jpeg`,
             alt: 'Colorful fingerpaint on canvas with tape marking out the word hello',
             caption: 'Community art project at the Judy Center'
           },
           {
-            src: '/images/gallery/JC_LangPortrait.JPG',
+            src: `${base}/images/gallery/JC_LangPortrait.JPG`,
             alt: 'Instructions to complete an art project with art supplies in the background',
             caption: 'Language portrait project during schoolwide Multicultural Night event'
           },
           {
-            src: '/images/gallery/JC_FamLendingLib.JPG',
+            src: `${base}/images/gallery/JC_FamLendingLib.JPG`,
             alt: 'Display of activities for families to borrow',
             caption: 'School readiness activity lending library at the Judy Center'
           },
           {
-            src: '/images/gallery/FCPL_CommTree.jpeg',
+            src: `${base}/images/gallery/FCPL_CommTree.jpeg`,
             alt: 'Large tree made of construction paper with colorful leaves on display',
             caption: 'Family tree community art project at the public library'
           },
           {
-            src: '/images/gallery/FCPL_BookDisplay.jpg',
+            src: `${base}/images/gallery/FCPL_BookDisplay.jpg`,
             alt: 'Bookshelf with bulletin board with cut out lettering and seasonal fall artwork that says Gratitude Stew',
             caption: "Children's book display at the public library"
           },

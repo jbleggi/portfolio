@@ -27,40 +27,41 @@
       ProjectCard,
     },
     data() {
+      const base = import.meta.env.BASE_URL;
       return {
         projects: [
           {
             title: 'Success Cafe (Work in Progress)',
             description: 'An accessible point-of-sale application created for a vocational training program for young adults with developmental delays.',
-            image: '/images/projects/work-in-progress.png',
+            image: `${base}/images/projects/work-in-progress.png`,
             type: 'Individual',
             link: "https://github.com/jbleggi/success_pos_fe",
           },
           {
             title: 'Geography Trivia',
-            description: 'A simple trivia React app about world geography using the TriviaDV.',
-            image: '/images/projects/geography_trivia.png',
+            description: 'A simple trivia React app about world geography using an external trivia API.',
+            image: `${base}/images/projects/geography_trivia.png`,
             type: 'Individual',
             link: "https://geography-trivia-ff812cf4e286.herokuapp.com/"
           },
           {
             title: 'Tea Subscription Service',
             description: 'An ecommerce mockup for a tea subscription business.',
-            image: '/images/projects/tea_time.png',
+            image: `${base}/images/projects/tea_time.png`,
             type: 'Individual',
             link: "https://github.com/jbleggi/final-frontend"
           },
           {
             title: 'RepRadar',
             description: 'A group project that visualizes current executive orders and allows users to search for local representatives using zip code.',
-            image: '/images/projects/rep_radar.png',
+            image: `${base}/images/projects/rep_radar.png`,
             type: 'Group',
             link: "https://github.com/RedRadar-WT-Team"
           },
           {
             title: 'Rancid Tomatillos',
             description: 'A paired project for movie ratings and reviews designed to mimic Rotten Tomatoes.',
-            image: '/images/projects/rancid_tomatillos.png',
+            image: `${base}/images/projects/rancid_tomatillos.png`,
             type: 'Paired',
             link: "https://github.com/mhaefling/rancid-tomatillos"
           },

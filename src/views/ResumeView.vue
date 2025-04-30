@@ -3,10 +3,21 @@
   <div class="resume-view">
     <h1>Resume</h1>
     <iframe
-      src="/Bleggi- Resume 2025.pdf"
+      :src="resumeUrl"
       width="125%"
       height="700px"
-      style="border: 1px black;">
+      style="border: 1px solid black;">
     </iframe>
   </div>
 </template>
+
+<script>
+export default {
+  name: 'ResumeView',
+  computed: {
+    resumeUrl() {
+      return `${import.meta.env.BASE_URL}Bleggi_Resume_2025.pdf`;
+    },
+  },
+};
+</script>
