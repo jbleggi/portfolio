@@ -2,7 +2,7 @@
 <template>
   <div class="work-gallery">
     <h1>Work Project Gallery</h1>
-    <p>A snapshot of the community-focused work I did before tech.</p>
+    <p>Snapshots of the community-focused work I did before tech.</p>
     <br>
     <h2>Photos</h2>
     <div class="gallery-grid">
@@ -110,6 +110,7 @@
 
 <style scoped>
   .work-gallery {
+    text-align: center;
     max-width: 1000px;
     margin: 0 auto;
   }

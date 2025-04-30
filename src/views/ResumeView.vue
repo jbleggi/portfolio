@@ -6,7 +6,7 @@
       src="/Bleggi- Resume 2025.pdf"
       width="125%"
       height="700px"
-      style="border: 1px black;"
-    ></iframe>
+      style="border: 1px black;">
+    </iframe>
   </div>
 </template>
