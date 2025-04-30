@@ -70,36 +70,36 @@
         ],
         videos: [
           {
-            title: 'Baby Storytime 6.7.2021',
-            url: 'https://youtu.be/GwXD10UmkJc?feature=shared',
+            title: 'Baby Storytime June 2021',
+            url: "https://www.youtube.com/embed/GwXD10UmkJc?si=tYLF0s7_7OkdEIfI",
           },
           {
-            title: 'Baby Storytime 5.17.2021',
-            url: 'https://youtu.be/q5cneYMjz9g?feature=shared',
+            title: 'Baby Storytime May 2021',
+            url: 'https://www.youtube.com/embed/q5cneYMjz9g?si=iLhwLL_pGzQqeNqR',
           },
           {
             title: 'Baby Storytime March 2021',
-            url: 'https://youtu.be/q5cneYMjz9g?feature=shared',
+            url: 'https://www.youtube.com/embed/A84xMmdzBxY?si=XkLVB8VaMcwS-ion',
           },
           {
             title: 'Virtual Storytime January 2021 (My favorite!)',
-            url: 'https://youtu.be/c9Jsd8Pivj8?feature=shared',
+            url: 'https://www.youtube.com/embed/c9Jsd8Pivj8?si=nKLLIc7lygvVs2ia',
           },
           {
-            title: 'Virtual Storytime October 2020 (Outside!)',
-            url: 'https://youtu.be/pXYUmbiwsj0?feature=shared',
+            title: 'Virtual Storytime October 2020',
+            url: 'https://www.youtube.com/embed/pXYUmbiwsj0?si=Iq9T76p5myfrdser',
           },
           {
             title: 'Virtual Storytime August 2020',
-            url: 'https://youtu.be/sstZInE3-WU?feature=shared',
+            url: 'https://www.youtube.com/embed/sstZInE3-WU?si=u7qQ2_uzCDe9JwsK',
           },
           {
             title: 'Virtual Storytime June 2020',
-            url: 'https://youtu.be/rX1qea_TGYE?feature=shared',
+            url: 'https://www.youtube.com/embed/rX1qea_TGYE?si=aAfykf97409bQYs6',
           },
           {
             title: 'Virtual Storytime April 2020',
-            url: 'https://youtu.be/eF5gXXtGGx0?feature=shared'
+            url: 'https://www.youtube.com/embed/eF5gXXtGGx0?si=BfIl2VeMEObi_dVC'
           }
 
         ],
