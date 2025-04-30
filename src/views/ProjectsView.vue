@@ -1,7 +1,7 @@
 <!-- Projects.vue: Showcase with <ProjectCard> components for each project -->
   <template>
     <div class="projects-view">
-      <h2>Projects</h2>
+      <h1>Projects</h1>
       <p>Click a card below to be redirected to the GitHub repository or deployed site link (if applicable).</p>
       <div class="projects-grid">
         <ProjectCard
