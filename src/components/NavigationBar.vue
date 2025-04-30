@@ -4,9 +4,9 @@
     <ul class="nav-list">
       <li><router-link to="/">Home</router-link></li>
       <li><router-link to="/about">About</router-link></li>
-      <li><router-link to="/projects">Projects</router-link></li>
+      <li><router-link to="/projects">Tech Projects</router-link></li>
       <li><router-link to="/resume">Resume</router-link></li>
-      <li><router-link to="/on-the-job">Work Photo Gallery</router-link></li>
+      <li><router-link to="/on-the-job">Community Work Gallery</router-link></li>
     </ul>
   </nav>
 </template>
